@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.counter{
+    margin: 0 auto;
+    width: 500px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    padding: 15px;
+}
+.PlusAndMinus{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+p{
+    font-size: 50px;
+    overflow: hidden;
+}
+button{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+}
+input  {
+    width: 300px;
+    height: 50px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+.sqr{
+    margin-left: 200px;
+}
+.reset{
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+}
+.error {
+    font-size: 20px;
+}
